@@ -30,7 +30,7 @@ Passively scans for local wireless networks (SSID, Signal, Channel, Security).
 Clone the repository and install the package:
 
 ```bash
-git clone https://github.com/your-username/phantom.git
+git clone https://github.com/deepanshu-khurana/phantom.git
 cd phantom
 pip install .
 ```
@@ -51,17 +51,44 @@ phantom
 **Test Case 1: Web Analysis**
 Run a complete audit on a target:
 ```bash
-phantom analyze https://google.com -complete
+ghost@phantom:~$ analyze https://google.com -spider
+Expected Output: The Sword will **Unsheathe** (Open Blade). The tool will run Spectrum and Arachnid modules sequentially.
+
+=== Wraith Protocol Initiated: https://google.com ===
+[*] Fetching target...
+
+=== Spectrum Analysis (Headers) ===
+[!] CRITICAL: Missing HSTS (MITM Risk)
+[!] CRITICAL: Missing CSP (XSS Risk)
+  > X-Frame-Options: Present
+[!] CRITICAL: Missing MIME Sniffing Protection
+  > Server Technology: gws
+
+=== Arachnid Module (Spider) ===
+  > Internal Links Found: 6
+  > Internal Links Found: 6
+  - https://google.com/intl/en/ads/
+  - https://google.com/intl/en/policies/terms/
+  - https://google.com/intl/en/policies/privacy/
+  - https://google.com/preferences?hl=en
+  - https://google.com/intl/en/about.html
+  - https://google.com/advanced_search?hl=en-IN&authuser=0
 ```
-*   **Expected Output**: The Sword will **Unsheathe** (Open Blade). The tool will run Spectrum, Arachnid, Vortex, Hunter, and Droid modules sequentially.
 
 **Test Case 2: WiFi Scan**
 Scan for local networks:
 ```bash
 phantom wifi
+Expected Output: The Sword will Unsheathe. A list of available WiFi networks (SSID, Signal, Channel, Security) will be displayed.
+____   _   _    _    _   _     ||       ___  __  __
+|  _ \| | | |  / \  | \ | | ========   / _ \|  \/  |
+| |_) | |_| | / _ \ |  \| |   |||     | | | | |\/| |
+|  __/|  _  |/ ___ \| |\  |   |||     | |_| | |  | |
+|_|   |_| |_/_/   \_\_| \_|   |||      \___/|_|  |_|
+                               V
+=== Spectral Protocol Initiated: WiFi Scan ===
+[WIFI] Khurana265_5G        MAC: 20:0c:86:b5:df:69 | Sig: 87%% | Ch: 60 | WPA2-Personal
 ```
-*   **Expected Output**: The Sword will **Unsheathe**. A list of available WiFi networks (SSID, Signal, Channel, Security) will be displayed.
-
 ## Development
 
 1.  **Clone the repo**: `git clone ...`
@@ -84,3 +111,4 @@ Contributions are welcome!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
