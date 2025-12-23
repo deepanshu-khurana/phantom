@@ -54,6 +54,13 @@ Run a complete audit on a target:
 ghost@phantom:~$ analyze https://google.com -spider
 Expected Output: The Sword will **Unsheathe** (Open Blade). The tool will run Spectrum and Arachnid modules sequentially.
 
+____   _   _    _    _   _     ||       ___  __  __
+|  _ \| | | |  / \  | \ | | ========   / _ \|  \/  |
+| |_) | |_| | / _ \ |  \| |   |||     | | | | |\/| |
+|  __/|  _  |/ ___ \| |\  |   |||     | |_| | |  | |
+|_|   |_| |_/_/   \_\_| \_|   |||      \___/|_|  |_|
+                               V
+
 === Wraith Protocol Initiated: https://google.com ===
 [*] Fetching target...
 
@@ -111,4 +118,5 @@ Contributions are welcome!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
