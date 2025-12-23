@@ -1,0 +1,4 @@
+requests
+behavior
+beautifulsoup4
+colorama

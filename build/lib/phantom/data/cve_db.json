@@ -1,0 +1,7 @@
+{
+    "Apache/2.4.49": ["CVE-2021-41773 (Path Traversal)", "CVE-2021-42013 (RCE)"],
+    "Apache/2.4.50": ["CVE-2021-42013 (RCE)"],
+    "nginx/1.18.0": ["CVE-2021-23017 (DNS Poisoning)"],
+    "Microsoft-IIS/10.0": ["Checking for HTTP.sys vulnerabilities..."],
+    "PHP/7.4.0": ["CVE-2019-11043 (RCE in FPM)"]
+}
