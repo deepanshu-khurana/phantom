@@ -6,7 +6,7 @@
 
 ## Features
 
-### 👻 Wraith (Web Reconnaissance)
+### Wraith (Web Reconnaissance)
 A suite of tools to analyze web targets:
 -   **Arachnid**: Spider/Crawler to map internal links.
 -   **Vortex**: Discovers potential API endpoints (`/api/v1`, `/graphql`, etc.).
@@ -118,5 +118,6 @@ Contributions are welcome!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
